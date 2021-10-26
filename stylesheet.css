@@ -1,6 +1,23 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     background-color: linear-gradient(darkgray, white);
 }
+
 header{
+    text-align: left;
+    margin: 0;
+    border: 0;
+    padding: 0;
     background-color: dimgray;
+}
+
+#logo{
+    color: rgb(198, 218, 219);
+    background-color: rgb(36, 50, 53);
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 16px;
 }
