@@ -4,7 +4,7 @@ body{
     background-color: linear-gradient(darkgray, white);
 }
 
-header{
+#top{
     text-align: left;
     margin: 0;
     border: 0;
