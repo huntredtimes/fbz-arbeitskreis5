@@ -1,5 +1,5 @@
 body{
-    background-color: darkgray;
+    background-color: linear-gradient(darkgray, white);
 }
 header{
     background-color: dimgray;
