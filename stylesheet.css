@@ -27,6 +27,10 @@ body{
     margin: 0px;  
 }
 
+#bande{
+    height: 10px;
+}
+
 #bottom{
     padding-top: 20px;
 }
@@ -183,7 +187,7 @@ a:hover#button{
 
 .textcontent{  
     padding: 20px;
-    margin-top: 70px;
+    margin-top: 10px;
     background-color: rgb(255, 255, 255);
     height: 400px;
     object-position: center;
