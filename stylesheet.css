@@ -1,19 +1,47 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(216, 216, 216);
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.562); 
     padding: 0px;
     border: 0px;
-    margin: 0px; 
-    background-color: rgb(73, 73, 73);
+    margin: 0px;   
+    background:         
+    linear-gradient(
+        rgba(0, 0, 0, 0.20), 
+        rgba(0, 0, 0, 0.2)), 
+      url("Media/HoMe-Hauptgeb-0-20210822-10282021_193452.jpg"); 
+     
 }
 
-#top, #bande{
-    text-align: center; 
-    background-color: rgb(26, 26, 26);
+#container{
+    width: 1000px;
+    content: 900px;  
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+
+#top, #bande, #bottom{
+    text-align: center;  
     padding: 5px;
     border: 0px;
-    margin: 0px; 
+    margin: 0px;  
 }
+
+#bottom{
+    padding-top: 20px;
+}
+
+/*
+#top{ 
+    position: fixed;
+    top: 0; 
+    left:0;
+    height: 30px;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 100px 0;
+    background-color: #fcfcfc; 
+}*/
 
 #bande{
     font-weight: bold;
@@ -21,84 +49,147 @@ body{
 }
 
 a{
-    color:rgb(216, 216, 216);
-    font-size: 90%;
+    color:rgba(0, 0, 0, 0.562); 
     text-decoration: none;
-    padding: 5px;
-    padding-right: 10px; 
-    padding-left: 10px;
-    border: 0px;
-    margin: 0px; 
-}
+    padding: 5px; 
+    padding-right: 50px; 
+    padding-left: 50px;
+    border: 0px; 
+} 
 
 a:hover{
     color:rgb(228, 228, 228);
-    background-color: rgb(107, 107, 107);
-    padding: 5px; 
-    padding-right: 10px; 
-    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 20px; 
+    padding-right: 50px; 
+    padding-left: 50px;
+    padding-bottom: 10px;
     border: 0px;
     margin: 0px; 
+    border-radius: 5px;
 } 
+
+a#bottom{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+a:hover#bottom{
+    color:rgb(228, 228, 228);
+    background-color:rgba(0, 0, 0, 0);
+}
+
+#contact{
+    background-color: rgb(0, 140, 255);
+    padding: 20px; 
+    padding-right: 50px; 
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border: 0px;
+    margin: 0px; 
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover#contact{
+    background-color: rgb(0, 105, 190);
+}
 
 #header{
     text-align: center;
     font-size: 150%;
-    padding: 30px; 
-    padding-bottom: 40px;
+    padding: 30px;
+    padding-bottom: 0px;   
+
+    position: -webkit-sticky; 
 }
 
 .untertitel{
-    font-size: 18px;
-    padding-top: 5px; 
-    padding: 10px;
-    border: 0px;
-    margin: 0px;
+    color:rgba(0, 0, 0, 0.685);
+    font-size: 31px; 
+    padding-top: 0px;  
 }
 
 h1{
-    color: white;
-    padding: 5px;
-    padding-bottom: 10px;
-    border: 0px;
-    margin: 5px;
+    font-size: 260%;
+    color: white;   
+    padding-bottom: 0px; 
 }
 
-#content{
+.content{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px;
+    padding: 80px;
 }
  
 .box{
     float: left; 
-    width: 400px;  
-    height: 320px;
+    width: 600px;  
+    height: 500px;
     margin-left: 20px;
     margin-right: 30px;
     padding: 1px; 
-    background: rgb(216, 216, 216); 
+    background: rgba(255, 255, 255, 0.986); 
     box-sizing: content-box;   
+    border-radius: 10px;
 }
 
 .thumbnail{
     object-fit: cover; 
-    height: 85%;
+    height: 45%;
     width: 100%; 
     padding: 0px;
     border: 0px;
     margin: 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .bezeichner{
-    color:rgb(32, 32, 32);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color:rgb(68, 68, 68);
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;  
     font-weight: bold;
-    padding-top: 7px;
+    padding-top: 25px;
+    padding-bottom: 5px;
     border: 0px;
-    margin: 0px;
+    margin: 0px; 
+} 
+
+.lauftext{
+    color:rgb(68, 68, 68); 
+    padding-right: 50px;
+    padding-left: 50px; 
+    text-align: start;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8; 
+}  
+
+a:hover#button{
+    background-color: rgba(255, 255, 255, 0);
 }
- 
+
+.textcontent{  
+    padding: 20px;
+    margin-top: 70px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    object-position: center;
+} 
+
+#contact2{
+    margin: auto;
+    background-color: rgb(0, 140, 255);
+    padding: 20px;   
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover#contact2{
+    background-color: rgb(0, 105, 190);
+}
