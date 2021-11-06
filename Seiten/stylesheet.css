@@ -8,7 +8,7 @@ body{
     linear-gradient(
         rgba(0, 0, 0, 0.20), 
         rgba(0, 0, 0, 0.2)), 
-      url("/Media/HoMe-Hauptgeb-0-20210822-10282021_193452.jpg"); 
+      url("Media/HoMe-Hauptgeb-0-20210822-10282021_193452.jpg"); 
       background-attachment: scroll;
      
 }
