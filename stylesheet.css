@@ -147,6 +147,7 @@ h1{
     box-sizing: content-box;   
     border-radius: 10px;
 }
+ 
 
 .thumbnail{
     object-fit: cover; 
@@ -221,3 +222,33 @@ a:hover#contact2{
     padding-bottom: 100px; 
     padding-top: 37px;
 }
+
+summary {list-style: none}
+summary::-webkit-details-marker {display: none; }
+
+details summary::before { 
+    content:"🡒"; 
+    color: rgb(82, 66, 66); 
+    /* you can style it however you want, use background-image for example */
+  }
+  
+  /* By using [open] we can define different styles when the disclosure widget is open */
+  details[open] summary::before { 
+    content:"🡑"; 
+    color:rgb(82, 66, 66); 
+  }
+   
+summary{
+    font-weight: bold;
+    margin-left: 0px;
+    padding-top: 20px;
+    color:rgb(68, 68, 68); 
+}
+
+details{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color:rgb(68, 68, 68); 
+}
+
+
