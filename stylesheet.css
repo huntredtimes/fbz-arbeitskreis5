@@ -251,4 +251,21 @@ details{
     color:rgb(68, 68, 68); 
 }
 
+#header2{
+    height:300px;
+    overflow:hidden; 
+}
 
+#banner{
+    margin-top:-275px; 
+    width: 1200px; 
+}
+
+#bannertext{
+    position: absolute;
+    top: 39%;
+    left: 15%; 
+    color: white;
+    font-size: 60px; 
+} 
+ 
