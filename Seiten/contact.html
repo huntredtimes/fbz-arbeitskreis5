@@ -6,7 +6,7 @@
     <title>Kontaktieren Sie uns!</title>
     <link rel="stylesheet" href="stylesheet.css"> 
   </head>
-  <body>
+  <body id="kontaktseite" onload="document.kontaktformular.absender.focus();">
     <div id="container">
     <div id="top"> 
       <a href="index.html">Home</a>
@@ -19,11 +19,31 @@
       <h1>Innovation und Digitalisierung</h1>
       <p class="untertitel">Arbeitskreis des FBZ e.V., An- Institut der Hochschule Merseburg</p>
     </div>  
-    Hierfür ist die Angabe einer validen E-Mail-Adresse sowie Ihres Namens erforderlich
-    Daten werden spätestens 6 Monate nach Bearbeitung der Anfrage gelöscht.
-
-Sofern es zu einem Vertragsverhältnis kommt, unterliegen wir den gesetzlichen Aufbewahrungsfristen nach HGB und löschen Ihre Daten nach Ablauf dieser Fristen.
-    <!--
+    <div class="textcontent" style="height: fit-content;"> 
+      <form id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi"
+      method="post">
+      <input type="hidden" name="empfaenger" value="noemiklimpel01X§Xgmail.com" />
+        <div>
+          <label for="absender">Ihre E-Mail-Adresse:</label>
+          <input type="text" id="absender" name="absender" />
+        </div>
+        <div>
+          <label for="nachricht">Ihre Nachricht:</label>
+          <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Abschicken" />
+        </div>
+        </form>
+    <p> 
+      Auszug aus den <a href="datenschutz.html" style="padding: 0px; font-style: italic;">Datenschutzbestimmungen:</a><br>
+      "Hierfür [für die Zuordnung Ihrer Anfrage] ist die Angabe einer validen E-Mail-Adresse sowie Ihres Namens erforderlich..."<br>
+      "Daten werden spätestens 6 Monate nach Bearbeitung der Anfrage gelöscht."<br>
+      "Sofern es zu einem Vertragsverhältnis kommt, unterliegen wir den gesetzlichen Aufbewahrungsfristen nach HGB und 
+      löschen Ihre Daten nach Ablauf dieser Fristen."
+     </p>
+    </div>
+     <!--
     <div class="textcontent"> 
       <p class="bezeichner">ÜBER UNS</p>
       <p class="lauftext"> 
