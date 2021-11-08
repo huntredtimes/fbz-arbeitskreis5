@@ -61,9 +61,9 @@ $smtp['user'] = 'fbz.ak5.iud@gmail.com'; // Der Benutzername, mit welchem Sie si
 
 $smtp['password'] = 'Enemenemuh13!#'; // Das Passwort, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren.
 
-$smtp['encryption'] = 'ssl'; // Die Art der Verschlüsselung, die bei der Verbindung mit Ihrem SMTP Server verwendet wird: '', 'ssl' oder 'tls'
+$smtp['encryption'] = 'tls'; // Die Art der Verschlüsselung, die bei der Verbindung mit Ihrem SMTP Server verwendet wird: '', 'ssl' oder 'tls'
 
-$smtp['port'] = 465; // Der TCP Port, unter welchem Ihr SMTP Server erreichbar ist.
+$smtp['port'] = 587; // Der TCP Port, unter welchem Ihr SMTP Server erreichbar ist.
 
 $smtp['debug'] = 0; // Das Debuglevel (0 - 4)
     
