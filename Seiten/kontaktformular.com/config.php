@@ -57,7 +57,7 @@ $smtp['enabled'] = 1; // Soll das Kontaktformular E-Mails über einen SMTP Serve
 
 $smtp['host'] = 'smtp.gmail.com'; // Der Host, unter welchem der SMTP Server erreichbar ist. (bspw. smtp.gmail.com)
    
-$smtp['user'] = 'fbz.ak5.iud'; // Der Benutzername, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren. (kann u.U. die oben genannte E-Mail Adresse sein!)
+$smtp['user'] = 'fbz.ak5.iud@gmail.com'; // Der Benutzername, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren. (kann u.U. die oben genannte E-Mail Adresse sein!)
 
 $smtp['password'] = 'Enemenemuh13!#'; // Das Passwort, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren.
 
