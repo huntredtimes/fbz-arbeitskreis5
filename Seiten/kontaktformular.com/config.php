@@ -53,7 +53,7 @@ $cfg['Icons_aktivieren'] = 1;  //  0 = keine Icons    1 = mit Icons
 
 $smtp = array();
 
-$smtp['enabled'] = 1; // Soll das Kontaktformular E-Mails über einen SMTP Server versenden? Ja = 1, Nein = 0
+$smtp['enabled'] = 0; // Soll das Kontaktformular E-Mails über einen SMTP Server versenden? Ja = 1, Nein = 0
 
 $smtp['host'] = 'smtp.gmail.com'; // Der Host, unter welchem der SMTP Server erreichbar ist. (bspw. smtp.gmail.com)
    
