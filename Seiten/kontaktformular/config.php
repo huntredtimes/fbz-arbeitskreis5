@@ -65,7 +65,7 @@ $smtp['encryption'] = 'tls'; // Die Art der Verschlüsselung, die bei der Verbin
 
 $smtp['port'] = 587; // Der TCP Port, unter welchem Ihr SMTP Server erreichbar ist.
 
-$smtp['debug'] = 0; // Das Debuglevel (0 - 4)
+$smtp['debug'] = 2; // Das Debuglevel (0 - 4)
     
     
     
