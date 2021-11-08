@@ -1,6 +1,6 @@
 <?php
 
-$empfaenger = "noemiklimpel@gmail.com";  // Bitte tragen Sie hier Ihre E-Mail Adresse ein. (zwischen den Anführungszeichen)
+$empfaenger = "fbz.ak5.iud@gmail.com";  // Bitte tragen Sie hier Ihre E-Mail Adresse ein. (zwischen den Anführungszeichen)
 
 $ihrname = "An- Institut FBZ e.V., Arbeitskreis 'Innovation und Digitalisierung'";  // Bitte tragen Sie hier Ihren Namen ein. (zwischen den Anführungszeichen) Dieser erscheint als Absender in der Danke Mail.
 
@@ -53,17 +53,17 @@ $cfg['Icons_aktivieren'] = 1;  //  0 = keine Icons    1 = mit Icons
 
 $smtp = array();
 
-$smtp['enabled'] = 0; // Soll das Kontaktformular E-Mails über einen SMTP Server versenden? Ja = 1, Nein = 0
+$smtp['enabled'] = 1; // Soll das Kontaktformular E-Mails über einen SMTP Server versenden? Ja = 1, Nein = 0
 
-$smtp['host'] = 'smtp.example.de'; // Der Host, unter welchem der SMTP Server erreichbar ist. (bspw. smtp.gmail.com)
+$smtp['host'] = 'smtp.gmail.de'; // Der Host, unter welchem der SMTP Server erreichbar ist. (bspw. smtp.gmail.com)
    
-$smtp['user'] = 'name'; // Der Benutzername, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren. (kann u.U. die oben genannte E-Mail Adresse sein!)
+$smtp['user'] = 'fbz.ak5.iud@gmail.com'; // Der Benutzername, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren. (kann u.U. die oben genannte E-Mail Adresse sein!)
 
-$smtp['password'] = 'password'; // Das Passwort, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren.
+$smtp['password'] = 'Enemenemuh13!#'; // Das Passwort, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren.
 
-$smtp['encryption'] = 'tls'; // Die Art der Verschlüsselung, die bei der Verbindung mit Ihrem SMTP Server verwendet wird: '', 'ssl' oder 'tls'
+$smtp['encryption'] = 'ssl'; // Die Art der Verschlüsselung, die bei der Verbindung mit Ihrem SMTP Server verwendet wird: '', 'ssl' oder 'tls'
 
-$smtp['port'] = 587; // Der TCP Port, unter welchem Ihr SMTP Server erreichbar ist.
+$smtp['port'] = 465; // Der TCP Port, unter welchem Ihr SMTP Server erreichbar ist.
 
 $smtp['debug'] = 0; // Das Debuglevel (0 - 4)
     
