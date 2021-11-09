@@ -59,7 +59,7 @@ $smtp['host'] = 'smtp.gmail.com'; // Der Host, unter welchem der SMTP Server err
    
 $smtp['user'] = 'fbz.ak5.iud@gmail.com'; // Der Benutzername, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren. (kann u.U. die oben genannte E-Mail Adresse sein!)
 
-$smtp['password'] = 'Enemenemuh13!#'; // Das Passwort, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren.
+$smtp['password'] = 'sxpeuyczbllrabof'; // Das Passwort, mit welchem Sie sich bei Ihrem SMTP Server authentifizieren.
 
 $smtp['encryption'] = 'tls'; // Die Art der Verschlüsselung, die bei der Verbindung mit Ihrem SMTP Server verwendet wird: '', 'ssl' oder 'tls'
 
